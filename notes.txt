@@ -1,0 +1,5 @@
+to find out user agent :https://www.whatismybrowser.com/detect/what-is-my-user-agent/
+there exists undetected-chromedriver https://pypi.org/project/undetected-chromedriver/
+as of now pyppeteer(https://github.com/pyppeteer/pyppeteer) has following message:-
+Attention: This repo is unmaintained and has been outside of minor changes for a long time.
+Please consider playwright-python as an alternative.

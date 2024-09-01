@@ -1,0 +1,9 @@
+python -m venv venv
+cd venv
+scripts/activate
+
+Python 3.10.6
+
+git init
+
+pip install requests
