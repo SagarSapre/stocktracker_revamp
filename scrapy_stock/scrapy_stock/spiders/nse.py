@@ -25,4 +25,4 @@ class NseSpider(scrapy.Spider):
         else:
             Marketopen = False
         print (f"today is Marketopen __{Marketopen}__")
-        yield scrapeddateitem
+        return scrapeddateitem

@@ -2,7 +2,7 @@ import requests
 
 url = "https://www.nseindia.com/api/reports"
 
-querystring = {"":"","archives":"[{\"name\":\"CM - Common Bhavcopy (csv)\",\"type\":\"archives\",\"category\":\"capital-market\",\"section\":\"equities\"}]","date":"05-Jul-2024","type":"equities","mode":"single"}
+querystring = {"":"","archives":"[{\"name\":\"CM - Common Bhavcopy (csv)\",\"type\":\"archives\",\"category\":\"capital-market\",\"section\":\"equities\"}]","date":"23-Sep-2024","type":"equities","mode":"single"}
 
 payload = ""
 headers = {

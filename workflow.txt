@@ -1,0 +1,30 @@
+[base data]
+
+"""certain things to keep track off"""
+
+how to duplicate the program
+documentation of program
+
+last run date of script/program
+market holidays
+
+
+[programflow]
+generate today's date
+check last run date of script/program
+check if market open today/yesterday
+calc dates for which program to run
+run program for dates
+
+[info collection by program]
+  
+  * take stock of what all data is available freely
+
+bhavcopy
+  $$__Scope_creep__$$
+nifty/indexes
+commodity prices/qty traded etc data
+indian financial data
+international stock prices
+international financial data
+

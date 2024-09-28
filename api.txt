@@ -1,0 +1,11 @@
+https://rapidapi.com/search/Finance?sortBy=ByRelevance
+
+https://github.com/marcelscruz/public-apis
+
+https://github.com/n0shake/Public-APIs
+
+https://github.com/public-api-lists/public-api-lists
+
+https://github.com/public-apis/public-apis
+
+https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
