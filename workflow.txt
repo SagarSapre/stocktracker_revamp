@@ -19,7 +19,7 @@ run program for dates
 [info collection by program]
   
   * take stock of what all data is available freely
-
+=alpha vantage api has rate limit 
 bhavcopy
   $$__Scope_creep__$$
 nifty/indexes
