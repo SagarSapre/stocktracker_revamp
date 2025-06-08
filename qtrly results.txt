@@ -1,3 +1,0 @@
-scraping quarteerly result from pdf
-multiple formats of table
-standalone only table,standalone+consolidated table,separate standalone and consolidated table
