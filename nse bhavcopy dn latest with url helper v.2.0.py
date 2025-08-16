@@ -8,7 +8,7 @@ import requests
 # --------------------------------------------------------------
 #  Helper: build the correct Bhavcopy URL for the requested date
 # --------------------------------------------------------------
-_CUTOFF = datetime.date(2024, 7, 5)          # last day on legacy format
+_CUTOFF = datetime.date(2024, 7, 5)          # last day on legacy format is 5 Jul 2024
 
 def _make_url(date: datetime.date, segment: str) -> str:
     """Return the correct CDN URL for `date` and `segment` (“cm”, “fo”, …)."""
@@ -53,7 +53,7 @@ def download_bhavcopy(
         "Accept":
             "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Encoding": "gzip, deflate, br",#remove br maybe/requests cant handle encoding
         "Referer": "https://www.nseindia.com/",
         "DNT": "1",
         "Connection": "keep-alive",
