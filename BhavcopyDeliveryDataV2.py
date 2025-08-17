@@ -3,7 +3,7 @@ from datetime import timedelta,datetime,date
 import time
 import random
 
-def date_dt2(start, end='11-1-2022'): #def date_dt2(start, end='15-8-2025'):
+def date_dt2(start, end='11-5-2021'): #def date_dt2(start, end='15-8-2025'):
 
     #end=datetime.today().strftime("%d-%m-%Y") if end == '15-8-2025' else end
     start=datetime.strptime(start, "%d-%m-%Y").date()
@@ -52,7 +52,7 @@ session.headers.update({
 })
 
 session.get(preurl, timeout=30)
-for date1 in date_dt2('30-9-2019', '11-1-2022'):
+for date1 in date_dt2('30-9-2019', '11-5-2021'):
     url=f"https://www.nseindia.com/api/reports?archives=%5B%7B%22name%22%3A%22Full%20Bhavcopy%20and%20Security%20Deliverable%20data%22%2C%22type%22%3A%22daily-reports%22%2C%22category%22%3A%22capital-market%22%2C%22section%22%3A%22equities%22%7D%5D&date={date1}&type=equities&mode=single"
     folder=r"K:\Sagar_new\ORDER\00_Programming\python\projects\stocktracker_revamp\files\bhavcopy\Bhavcopy with delivery"
     try:
